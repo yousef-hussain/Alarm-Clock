@@ -1,0 +1,44 @@
+body {
+        background-color: #aaa;
+}
+h2 {
+    background-color: #333;
+    text-align: center;
+    margin: 0;
+    font-size: 60px;
+    color: #ddd;
+}
+.container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#clock {
+    font-family: sans-serif;
+    font-size: 10vw;
+    color: #222;
+}
+.controls {
+    margin-top: 16px;
+}
+[type="datetime-local"] {
+    font-size: 20px;
+}
+.set-alarm, .clear-alarm {
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 10px;
+    margin-left: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.set-alarm {
+    background-color: #00f;
+}
+.clear-alarm {
+    background-color: tomato;
+}
